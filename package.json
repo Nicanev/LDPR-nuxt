@@ -1,19 +1,25 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "nuxt": "3.0.0",
-    "sass": "^1.57.1",
-    "sass-loader": "^13.2.0"
-  },
-  "dependencies": {
-    "@pinia/nuxt": "^0.4.6",
-    "pinia": "^2.0.28"
-  }
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"deploy": "gh-pages -d dist",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@nuxt/image": "^0.7.1",
+		"@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
+		"gh-pages": "^4.0.0",
+		"nuxt": "3.0.0",
+		"sass": "^1.57.1",
+		"sass-loader": "^13.2.0"
+	},
+	"dependencies": {
+		"@pinia/nuxt": "^0.4.6",
+		"nuxt-icons": "^3.0.0",
+		"nuxt-swiper": "^0.1.6",
+		"pinia": "^2.0.28"
+	}
 }

@@ -11,14 +11,16 @@ html {
 	font-size: 0.520835vw;
 	line-height: 1.2;
 }
-
+a {
+	cursor: pointer !important;
+}
 .wrapper {
 	min-height: 100vh;
 	overflow: hidden;
 }
 
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Manrope", sans-serif;
 }
 
 ul {
@@ -96,7 +98,7 @@ p {
 }
 
 [class*="__container"] {
-	max-width: 163.4rem;
+	max-width: 171rem;
 	margin: 0 auto;
 }
 
