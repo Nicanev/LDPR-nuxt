@@ -6,6 +6,7 @@
                 <li><a>О нас</a></li>
                 <li><a>Новости</a></li>
                 <li><a>Контакты</a></li>
+                <li><a>Помощь</a></li>
             </ul>
             <div class="footer__social">
                 <nuxt-icon name="vk" style="font-size: 2rem; color: rgb(113, 113, 122, 1);" />
@@ -39,6 +40,13 @@
         svg {
             cursor: pointer;
         }
+
+        svg:hover {
+            path {
+                fill: black !important;
+                transition: 0.2s;
+            }
+        }
     }
 
     &__menu {
@@ -48,6 +56,10 @@
         a {
             font-size: 1.4rem;
             color: rgb(113, 113, 122, 1);
+        }
+
+        a:hover {
+            color: rgb(0, 0, 0);
         }
     }
 }

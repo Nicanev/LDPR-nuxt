@@ -8,7 +8,7 @@
                     воплотить свои идеи.</h2>
             </div>
             <div class="hero__buttons">
-                <button>Присоединиться</button>
+                <nuxt-link to="/register"><button>Присоединиться</button></nuxt-link>
                 <a>Войти <nuxt-icon name="arrow" filled /></a>
             </div>
             <div class="hero__track">
@@ -35,6 +35,8 @@
         </div>
     </section>
 </template>
+
+
 
 <style lang="scss">
 .hero {

@@ -11,5 +11,11 @@ export default defineNuxtConfig({
 		base: "/LDPR-nuxt/", // base: '/<repository>/'
 	},
 	css: ["~/assets/scss/main.scss"],
-	modules: ["@pinia/nuxt", "nuxt-swiper", "@nuxt/image-edge", "nuxt-icons"],
+	modules: [
+		"@pinia/nuxt",
+		"nuxt-swiper",
+		"@nuxt/image-edge",
+		"nuxt-icons",
+		"@nuxtjs/supabase",
+	],
 });

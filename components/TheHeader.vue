@@ -1,7 +1,7 @@
 <template>
     <header class="header">
         <div class="header__container">
-            <img src="../assets/img/Logo.svg" class="header__logo" />
+            <nuxt-link to="/"> <img src="../assets/img/Logo.svg" class="header__logo" /></nuxt-link>
             <ul class="header__menu">
                 <li><a>О нас</a></li>
                 <li><a>Новости</a></li>
